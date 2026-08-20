@@ -4,7 +4,7 @@ class Solution {
         int j=s.length()-1;
         int c=0;
         while (i<j){
-            //increment (maybe ascii)
+            //increment (maybe using ascii)
             int a1=Math.abs((s.charAt(i)-'a')-(s.charAt(j)-'a'));
             int a2=26-a1;
             c+=Math.min(a1,a2);
